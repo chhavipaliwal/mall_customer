@@ -64,6 +64,7 @@ const Shopping = () => {
           </div>
         </div>
       </div>
+      <div></div>
     </div>
   );
 };
