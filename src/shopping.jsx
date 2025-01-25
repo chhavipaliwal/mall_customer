@@ -2,7 +2,6 @@ import { Icon } from "@iconify/react/dist/iconify.js";
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-
 const Shopping = () => {
   const [products, setProducts] = useState([]);
   useEffect(() => {
@@ -87,7 +86,7 @@ const Shopping = () => {
             <img
               src={product.thumbnail}
               alt="food"
-              className="rounded-2xl  object-cover mb-2"
+              className="rounded-2xl  object-cover mb-2 transition-transform duration-300 ease-in-out hover:scale-105"
             />
             <div>
               <h1 className="text-lg font-semibold">{product.title}</h1>
